@@ -43,26 +43,29 @@ if ($_SERVER["REQUEST_METHOD"]== "POST"){
 
 </head>
 
-<body class="bg-slate-900 p-8">
+<body class="bg-slate-950 p-8">
 
-    <div class="max-w-md mx-auto bg-slate-800 shadow-x1 border border-slate-700">
+    <div class="max-w-md mx-auto bg-slate-900 shadow-x1 border border-slate-700 rounded-x1 p-6">
+
         <h2 class="text-xl font-bold mb-4 text-slate-400">Sistema Poliglota(PHP + PDO)</h2>
+
         <form method="post">
+
             <div class="mb-4">
-                <label class="block text-slate-600 font-medium">Nome:</label>
-                <input type="text" name="nome" required class="w-full p-2 border border-slate-200 rounded-md focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500">
+                <label class="block text-slate-300 font-medium">Nome:</label>
+                <input type="text" name="nome" required class="w-full p-2 bg-slate-900 border border-slate-600 rounded-md text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500">
 
             </div>
 
             <div class="mb-4">
-                <label class="block text-slate-600 font-medium">Curso:</label>
-                <input type="text" name="curso" required class="w-full p-2 border border border-slate-200 rounded-md focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500">
+                <label class="block text-slate-300 font-medium">Curso:</label>
+                <input type="text" name="curso" required class="w-full p-2 bg-slate-900 border border-slate-600 rounded-md text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500">
 
             </div>
 
              <div class="mb-4">
-                <label class="block text-slate-600 font-medium">turno:</label>
-                <input type="text" name="turno" required class="w-full p-2 border border border-slate-200 rounded-md focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500">
+                <label class="block text-slate-300 font-medium">Turno:</label>
+                <input type="text" name="turno" required class="w-full p-2 bg-slate-900 border border-slate-600 rounded-md text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500">
             </div>
 
             <button type="submit" class="w-full bg-indigo-600 text-white font-medium hover:bg-indigo-700 transition-colors shadow-sm">Cadastrar</button>
