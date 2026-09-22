@@ -1,0 +1,55 @@
+body {
+  background-color: #F5F7FA;
+
+}
+
+.main-div {
+  background-color: #ffffff;
+  border: 2px solid #DDE2EA;
+  max-width: 440px;
+  height: 689px;
+  margin: 200px auto;
+  border-radius: 17px;
+  padding: 17px;
+  
+}
+
+.title-div {
+  text-align: center;
+  font-family: inter;
+}
+
+.main-title {
+  font-size: 32px;
+
+}
+
+.sub-title {
+  font-size: 16px;
+  font-weight: normal;
+  color: #667085;
+}
+
+.label-text {
+  text-align: left;
+  font-family: inter;
+}
+
+.input-field {
+  width: 100%;
+  height: 34px;
+  border-radius: 5px;
+  border: 2px solid #DDE2EA;
+}
+
+.button {
+  background-color: #3157D5;
+  color: #ffffff;
+  width: 100%;
+  height: 47px;
+  border-radius: 5px;
+  font-family: inter;
+  font-weight: bold;
+  border: 0px solid #000000;
+  
+}

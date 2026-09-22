@@ -39,7 +39,7 @@ public class Processador{
                 System.out.println("Java processou o aluno: " + nome + " |Matrícula: " + matriculaFicticia);
             } else {
 
-                System.out.println("Nehum aluno pendente para processar.");
+                System.out.println("Nenhum aluno pendente para processar.");
 
 
             }

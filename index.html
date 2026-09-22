@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Poliglota - PHP</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="body">
+
+    <div class="main-div">
+
+      <div class="title-div">
+        <h2 class="main-title">CRIE SUA CONTA</h2>
+        <h1 class="sub-title">Preencha os dados abaixo para começar.</h1>
+      </div>
+
+        <div class="div-forms">
+          <form action="processar.php" method="POST">
+  
+              <div class="inblock">
+                  <label class="label-text">Nome</label>
+                  <br>
+                  <input type="text" name="nome" required class="input-field">
+  
+              </div>
+  
+              <div class="inblock">
+                  <label class="label-text">Curso</label>
+                  <br>
+                  <input type="text" name="curso" required class="input-field">
+  
+              </div>
+  
+               <div class="inblock">
+                  <label class="label-text">Turno</label>
+                   <br>
+                  <input type="text" name="turno" required class="input-field">
+              </div>
+  
+              <button type="submit" class="button">Cadastrar</button>
+          </form>
+        </div>
+
+
+    </div>
+    
+</body>
+
+</html>
