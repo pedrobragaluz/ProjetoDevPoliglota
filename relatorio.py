@@ -14,7 +14,7 @@ conexao = mysql.connector.connect(
 
 cursor = conexao.cursor()
 
-cursor.execute("SELECT id,nome,curso,matricula FROM alunos WHERE matricula != 'Pendente'")
+cursor.execute("SELECT id,nome,curso,turno,matricula FROM alunos WHERE matricula != 'Pendente'")
 
 resultados = cursor.fetchall()
 
