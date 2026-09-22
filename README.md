@@ -128,7 +128,8 @@ CREATE TABLE IF NOT EXISTS alunos (
   id INT AUTO_INCREMENT PRIMARY KEY,
   nome VARCHAR(100) NOT NULL,
   curso VARCHAR(50) NOT NULL,
-  matricula VARCHAR(20) DEFAULT 'Pendente'
+  matricula VARCHAR(20) DEFAULT 'Pendente',
+  turno TEXT NOT NULL
 );
 ```
 
