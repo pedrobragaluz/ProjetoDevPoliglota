@@ -52,7 +52,7 @@ A topologia do sistema baseia-se em um modelo centralizado em banco de dados rel
        └──────────────┘                     ▼
                                     ┌──────────────┐
        ┌──────────────┐             │    MySQL     │
-       │   Java ☕    │ ◄─(Processa)┤  (SGBD Central)│
+       │   Java ☕    │◄─(Processa)|(SGBD Central)│
        └──────────────┘             └──────────────┘
                                             ▲
        ┌──────────────┐                     │
@@ -176,6 +176,6 @@ Este projeto é distribuído sob os termos da licença **MIT**. Consulte o arqui
 ---
 
 <p align="center">
-  Feito com 💜 e dedicação pela <b>Equipe Projeto Dev Poliglota</b><br>
+  Feito com ☕ e dedicação pela <b>Equipe Projeto Dev Poliglota</b><br>
   <b>EETEPA IEEP • Ano Letivo de 2026</b>
 </p>
