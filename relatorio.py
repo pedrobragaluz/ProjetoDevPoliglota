@@ -33,7 +33,9 @@ for row in resultados:
 
     print(f"Curso    : {row[2]}")
 
-    print(f"Matrícula    : {row[3]}")
+    print(f"Turno    : {row[3]}")
+
+    print(f"Matrícula    : {row[4]}")
 
     print("=" * 45)
 
