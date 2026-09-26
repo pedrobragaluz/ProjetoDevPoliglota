@@ -52,7 +52,7 @@ A topologia do sistema baseia-se em um modelo centralizado em banco de dados rel
        └──────────────┘                     ▼
                                     ┌──────────────┐
        ┌──────────────┐             │    MySQL     │
-       │   Java ☕    │◄─(Processa)|(SGBD Central)│
+       │   Java ☕    │◄─(Processa) |(SGBD Central)│
        └──────────────┘             └──────────────┘
                                             ▲
        ┌──────────────┐                     │
